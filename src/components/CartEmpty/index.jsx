@@ -7,7 +7,7 @@ const CartEmpty = () => (
     <Header activeTab="CART" />
     <div className="cart-empty-container">
       <img
-        src="https://res.cloudinary.com/dyt32ms4f/image/upload/v1633502824/cooking_1_vj2tyq.png"
+        src="https://res.cloudinary.com/dgikp3wey/image/upload/v1786502017/cooking_1_xfiukb.png"
         alt="empty cart"
         className="empty-cart-image"
       />

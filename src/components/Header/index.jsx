@@ -15,7 +15,7 @@ const Header = ({ activeTab }) => {
       <div className="nav-content">
         <Link to="/" className="nav-logo-link">
           <img
-            src="https://res.cloudinary.com/dyt32ms4f/image/upload/v1633502844/Group_7420_lsy1ms.png"
+            src="https://res.cloudinary.com/dgikp3wey/image/upload/v1786500211/Frame_274_ynikj6.png"
             alt="website logo"
             className="navbar-logo"
           />

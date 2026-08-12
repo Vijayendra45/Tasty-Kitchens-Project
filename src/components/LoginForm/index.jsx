@@ -47,7 +47,7 @@ const LoginForm = () => {
       <div className="login-card">
         <div className="logo-container">
           <img
-            src="https://res.cloudinary.com/dyt32ms4f/image/upload/v1633502844/Group_7420_lsy1ms.png"
+            src="https://res.cloudinary.com/dgikp3wey/image/upload/v1786500211/Frame_274_ynikj6.png"
             alt="website logo"
             className="login-logo"
           />
@@ -81,7 +81,7 @@ const LoginForm = () => {
       </div>
       <div className="login-landing-image-container">
         <img
-          src="https://res.cloudinary.com/dyt32ms4f/image/upload/v1633502805/Layer_2_swg5o7.png"
+           src="https://res.cloudinary.com/dgikp3wey/image/upload/v1786500213/Rectangle_1456_laleew.png"
           alt="website login"
           className="login-landing-img"
         />

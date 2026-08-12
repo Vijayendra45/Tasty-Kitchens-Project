@@ -1,0 +1,155 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.carousel-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 24px auto;
+}
+
+.offer-image {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  height: 180px;
+}
+
+.restaurants-section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-grow: 1;
+  padding-bottom: 40px;
+}
+
+.sort-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #1e293b;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.sort-by-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: flex-start;
+}
+
+.filter-icon {
+  font-size: 20px;
+  color: #475569;
+}
+
+.sort-by-text {
+  font-size: 14px;
+  color: #475569;
+}
+
+.sort-select {
+  border: none;
+  background: transparent;
+  color: #1e293b;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+
+.restaurants-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 0;
+}
+
+.restaurant-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.restaurant-link {
+  text-decoration: none;
+  display: flex;
+  gap: 16px;
+  padding: 12px;
+}
+
+.restaurant-image {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.restaurant-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.restaurant-name {
+  font-size: 16px;
+  color: #1e293b;
+}
+
+.cuisine {
+  font-size: 12px;
+  color: #64748b;
+  margin: 4px 0;
+}
+
+.rating {
+  font-size: 12px;
+  color: #f59e0b;
+  font-weight: bold;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.pagination-btn {
+  background: transparent;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.page-number {
+  font-size: 14px;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .offer-image { height: 260px; }
+  .sort-header { flex-direction: row; justify-content: space-between; align-items: center; }
+  .sort-by-container { align-self: center; }
+  .restaurants-list { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 992px) {
+  .offer-image { height: 320px; }
+  .restaurants-list { grid-template-columns: repeat(3, 1fr); }
+}

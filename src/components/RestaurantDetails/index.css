@@ -1,0 +1,85 @@
+.restaurant-details-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.restaurant-banner {
+  background-color: #334155;
+  color: #ffffff;
+  padding: 24px 0;
+}
+
+.banner-content {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.banner-image {
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.banner-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-name {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.banner-cuisine, .banner-location {
+  font-size: 14px;
+  color: #cbd5e1;
+  margin-bottom: 6px;
+}
+
+.banner-meta {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.meta-value {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.meta-label {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.vertical-rule {
+  width: 1px;
+  height: 40px;
+  background-color: #64748b;
+  border: none;
+}
+
+.food-items-list-container {
+  list-style-type: none;
+  width: 90%;
+  max-width: 1200px;
+  margin: 32px auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .banner-content { flex-direction: row; }
+  .food-items-list-container { grid-template-columns: repeat(2, 1fr); }
+}
